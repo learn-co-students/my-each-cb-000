@@ -1,3 +1,8 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(coll)
+  i = 0
+  while(i < coll.length)
+    yield coll[i]
+    i += 1
+  end
+  coll
 end
