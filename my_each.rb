@@ -6,3 +6,10 @@ def my_each(words)
   end
   words
 end
+
+# test
+array = my_each(['tim', 'bob', 'john', 'mick']) do |name|
+  puts name
+end
+
+puts array.inspect #=> ["tim", "bob", "john", "mick"]
