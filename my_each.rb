@@ -7,6 +7,6 @@ def my_each(collection) # put argument(s) here
   end
   collection
  else
-  puts "Not sure"
+  collection
  end
 end
